@@ -1,6 +1,7 @@
 //uses crt;
 var fi,fo:text;
     n,m,i,j:longint;
+    K:qword;
     res,arr:array[1..1000,1..1000] of longint;
 function min(a,b:longint):longint;
 begin
