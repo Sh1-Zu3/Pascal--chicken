@@ -1,4 +1,4 @@
-uses crt;
+//uses crt;
 var m:longint;
     fi,fo:text;
     arr:array[1..1000,1..1000] of longint;
