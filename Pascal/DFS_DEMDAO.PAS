@@ -31,4 +31,4 @@ clrscr;
  //writeln(m,' ',n);
 // for i:=1 to m do begin for j:=1 to n do write(arr[i][j],' '); writeln; end;
  close(fi); close(fo);
-end.
+end.  
