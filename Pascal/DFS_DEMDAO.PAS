@@ -1,4 +1,4 @@
-uses crt;
+//uses crt;
 var fi,fo:text;
     cnt,n,m,i,j:longint;
     arr:array[1..1000,1..1000] of longint;
@@ -27,8 +27,8 @@ clrscr;
    end;
   end;
  end;
- writeln(cnt);
- writeln(m,' ',n);
- for i:=1 to m do begin for j:=1 to n do write(arr[i][j],' '); writeln; end;
+ writeln(fo,cnt);
+ //writeln(m,' ',n);
+// for i:=1 to m do begin for j:=1 to n do write(arr[i][j],' '); writeln; end;
  close(fi); close(fo);
 end.
